@@ -33,10 +33,27 @@ const Experience = () => {
       company: "Lebanese University (Master 1)",
       year: "2024",
       description: "Built an AI model for detecting fake news using Neural Networks, including RNN, Markov models, MLP, and CNN."
+    },
+    {
+      position: "Training Program",
+      company: "SE Factory",
+      year: "April 16, 2025 - Present",
+      description: "First Training (1 month): Tech Modules including Flutter, Foundations of Prompt Engineering, and GenAI. Non-Tech Modules: Employability Skills. Second Training (1 month): Tech Modules including Introduction to DevOps, MLOps, DataOps, and Building Web Applications using WebFlow. Non-Tech Modules: Time Management, Organizational Skills, and Communication Skills."
+    },
+    {
+      position: "CyberSecurity Course",
+      company: "SemiColon Academy",
+      year: "March 3, 2025 - Present",
+      description: "Topics covered: Introduction to Cybersecurity, Cryptography, Application Security, Infrastructure Security, Reverse Engineering, and more. Participating in a CTF (Capture The Flag) challenge organized in collaboration with SemiColon Academy and Google Developer Group."
+    },
+    {
+      position: "Freelance Web Developer",
+      company: "Self-Employed",
+      year: "2024 - Present",
+      description: "Building websites for various clients."
     }
   ];
   
-
   return (
     <motion.section 
       className="section experience-section"

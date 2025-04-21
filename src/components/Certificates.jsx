@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import cert2 from "../images/ESA.png";
 import cert1 from "../images/ESIEE.png";
-/* import cert3 from "../images/cert3.png"; */
+import ctf1 from "../images/ctf1.jpeg";
+
 
 const Certificates = () => {
   // État pour suivre quelle image est affichée dans le modal
@@ -25,7 +26,7 @@ const Certificates = () => {
       title: "Cyber Security",
       issuer: "SemiColom Academy",
       year: "2025",
-      image: "cert3"
+      image: ctf1
     }
   ];
 
