@@ -3,7 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import cert2 from "../images/ESA.png";
 import cert1 from "../images/ESIEE.png";
 import ctf1 from "../images/ctf1.jpeg";
-
+import cert3 from "../images/prompteng.png";
+import cert4 from "../images/flutter.png";
+import cert5 from "../images/EmpSkills.png";
 
 const Certificates = () => {
   // État pour suivre quelle image est affichée dans le modal
@@ -27,6 +29,25 @@ const Certificates = () => {
       issuer: "SemiColom Academy",
       year: "2025",
       image: ctf1
+    },
+    // SE Factory certificate
+    {
+      title: "Prompt Engineering",
+      issuer: "SE Factory",
+      year: "2024-2025",
+      image: cert3
+    },
+    {
+      title: "Flutter Course",
+      issuer: "SE Factory",
+      year: "2024-2025",
+      image: cert4
+    },
+    {
+      title: "Employability Skills",
+      issuer: "SE Factory",
+      year: "2024-2025",
+      image: cert5
     }
   ];
 

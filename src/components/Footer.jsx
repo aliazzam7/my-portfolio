@@ -1,15 +1,15 @@
 import React from "react";
 import { FaLinkedin, FaFacebook, FaInstagram, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
-import myCV from "../files/AliAzzam-CV-.pdf";
-
+//import myCV from "../files/AliAzzam-CV-.pdf";
+import myCV from "../files/Ali_Azzam_CV.pdf";
 //import "../styles/Footer.css";
 
 const Footer = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = myCV; // Remplace avec le bon chemin de ton CV
-    link.download = "AliAzzam-CV-.pdf";
+    link.download = "Ali_Azzam_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
