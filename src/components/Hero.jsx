@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
-import me1  from '../images/me1.jpeg';
+import me2  from '../images/me2.jpeg';
 
 const AnimatedSphere = () => {
   return (
@@ -31,7 +31,11 @@ const Hero = () => {
         >
           <div className="profile-image">
             {/* Replace with your image */}
-            <img src={me1} alt="Profile" />
+          <img 
+              src={me2} 
+              alt="Profile" 
+              className="w-48 h-48 object-cover rounded-full shadow-lg" 
+            />
           </div>
           <div className="canvas-container">
             <Canvas>

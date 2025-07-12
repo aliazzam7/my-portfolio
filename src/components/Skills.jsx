@@ -57,7 +57,8 @@ const skillCategories = [
       { name: "PyCharm", level: 80 },
       { name: "Eclipse IDE", level: 75 },
       { name: "Atom", level: 70 },
-      { name: "Packet Tracer", level: 75 }
+      { name: "Packet Tracer", level: 75 },
+      { name: "Docker", level: 50 }
     ]
   },
   {

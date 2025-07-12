@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import cert2 from "../images/ESA.png";
 import cert1 from "../images/ESIEE.png";
-import ctf1 from "../images/ctf1.jpeg";
+import ctf from "../images/ctf.jpg";
 import cert3 from "../images/prompteng.png";
 import cert4 from "../images/flutter.png";
 import cert5 from "../images/EmpSkills.png";
-
+import cert6 from "../images/ml.png";
+import cert7 from "../images/opss.png";
+import cert8 from "../images/timemang.png";
+import cert9 from "../images/cyberday.jpg";
 const Certificates = () => {
   // État pour suivre quelle image est affichée dans le modal
   const [selectedImage, setSelectedImage] = useState(null);
@@ -28,9 +31,9 @@ const Certificates = () => {
       title: "Cyber Security",
       issuer: "SemiColom Academy",
       year: "2025",
-      image: ctf1
+      image: ctf
     },
-    // SE Factory certificate
+    // SE Factory certificate training 1
     {
       title: "Prompt Engineering",
       issuer: "SE Factory",
@@ -48,7 +51,33 @@ const Certificates = () => {
       issuer: "SE Factory",
       year: "2024-2025",
       image: cert5
-    }
+    },
+    // SE Factory certificate training 2
+    {
+      title: "Machine Learning",
+      issuer: "SE Factory",
+      year: "2024-2025",
+      image: cert6
+    },
+    {
+      title: "DevOps,MLOps,DataOps",
+      issuer: "SE Factory",
+      year: "2024-2025",
+      image: cert7
+    },
+    {
+      title: "Time Management",
+      issuer: "SE Factory",
+      year: "2024-2025",
+      image: cert8
+    },
+   {
+  title: "Participation in Cyber Security Day 2025",
+  issuer: "SemiColon Academy",
+  year: "2025",
+  image: cert9
+}
+
   ];
 
   return (

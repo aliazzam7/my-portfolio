@@ -37,8 +37,12 @@ const Experience = () => {
     {
       position: "Training Program",
       company: "SE Factory",
-      year: "April 16, 2025 - Present",
-      description: "First Training (1 month): Tech Modules including Flutter, Foundations of Prompt Engineering, and GenAI. Non-Tech Modules: Employability Skills. Second Training (1 month): Tech Modules including Introduction to DevOps, MLOps, DataOps, and Building Web Applications using WebFlow. Non-Tech Modules: Time Management, Organizational Skills, and Communication Skills."
+      year: "April 16, 2025 - July 3,2025",
+      description: 
+      "First Training (1 month): Tech Modules including Flutter, Foundations of Prompt Engineering, and GenAI.\n" +
+      "Non-Tech Modules: Employability Skills.\n" +
+      "Second Training (1 month): Tech Modules including Introduction to DevOps, MLOps, DataOps and use docker and CI/CD and CT, and Machine Learning.\n" +
+      "Non-Tech Modules: Time Management, Organizational Skills, and Communication Skills."
     },
     {
       position: "CyberSecurity Course",
